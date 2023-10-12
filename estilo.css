@@ -1,44 +1,172 @@
 /* Reset CSS */
-body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* Implementa fontes */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 /* implementa fonte padão como Poppins */
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
 }
-
 
 #quem-somos {
-    background-color: blueviolet;
-
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5b9fe6;
+  max-width: 1280px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url(imagens/mao-amarela.png),
+    url(imagens/background-azul-esquerda.png), url(imagens/pontilhado.png),
+    url(imagens/background-azul-direita.png), url(imagens/pontilhado.png);
+  background-repeat: no-repeat;
+  background-position: top 10% left 5%, top left, top 15% right 7%,
+    top -20% right 0, bottom -5% left 5%;
 }
-.titulo {
-    color:  aqua
+
+#quem-somos h1 {
+  margin: 1.875rem 0 1.875rem 0;
+  font-size: 6.25rem;
+  font-weight: 700;
+}
+
+#quem-somos p {
+  font-size: 1.5625rem;
+  width: 70%;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18.75rem;
+  margin: 3.125rem;
+}
+
+.card-apresentacao img {
+  width: 17.5rem;
+  height: 17.5rem;
+  border-radius: 50%;
+}
+
+.card-apresentacao h2 {
+  font-size: 1.875rem;
+  margin: 0.625rem;
+  font-weight: 700;
+}
+
+.card-apresentacao span {
+  font-size: 1.1rem;
+  width: 100%;
 }
