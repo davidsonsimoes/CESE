@@ -41,4 +41,83 @@ h1, h2, h3, h4, h5, h6 {
 }
 .titulo {
     color:  aqua
+}  
+
+/* Estilo para a seção "voluntario" */
+#voluntario {
+    background-color: rgb(110, 143, 251); 
+    display: block;
+}
+#voluntario .container {
+    display: flex;
+    flex-wrap: wrap;
+} 
+/* Estilo para os títulos h1 */
+#voluntario .destaque {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;  
+    margin-top: 40%;
+    padding: 20px;
+}
+
+/* Estilo para o parágrafo dentro de #voluntario */
+#voluntario .texto {
+    font-size: 16px;
+    color: #ffffff; 
+    margin-bottom: 15px; 
+}
+
+#voluntario .content {
+    flex: 1;
+    padding: 20px; 
+
+}
+
+#voluntario .image {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+#voluntario .image img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px; 
+    border-radius: 100%;
+}
+
+/* Adicione margem à esquerda para a segunda imagem */
+#voluntario .image1 img {
+    margin-left: 20px;
+    max-width: 60%;
+    display: block;
+    
+
+}
+
+/* Adicione margem acima para a terceira imagem */
+#voluntario .image2 img {
+    margin-top: 20px;
+    
+}
+
+/* Adicione margem à esquerda e acima para a quarta imagem */
+#voluntario .image3 img {
+    margin-left: 20px;
+    margin-top: 20px; 
+    
+}
+/* Estilo para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #e0dc0e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* Estilo para o botão ao passar o mouse */
+button:hover {
+    background-color: #c5b12f;
 }
