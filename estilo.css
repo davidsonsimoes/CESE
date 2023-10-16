@@ -1,4 +1,4 @@
-/* Reset CSS */
+`/* Reset CSS */
 body,
 div,
 span,
@@ -242,7 +242,7 @@ align-items: center;
 background-color: #337dcc;
 max-width: 1280px;
 width: 100%;
-height: 100vh;
+height: 120vh;
 text-align: center;
 color: white;
 background-image: url(imagens/mao-branca.png);
@@ -290,7 +290,7 @@ width: 18.75rem;
 margin: 3.125rem;
 background-color:white;
 color:#5b9fe6;
-border-radius: 5px;
+border-radius: 10px;
 display: flex;
 flex-direction: column;
 }
@@ -305,7 +305,7 @@ width: 18.75rem;
 margin: 3.125rem;
 background-color:white;
 color:#5b9fe6;
-border-radius: 5px;
+border-radius: 10px;
 display: flex;
 flex-direction: column;
 }
@@ -320,11 +320,10 @@ width: 18.75rem;
 margin: 3.125rem;
 background-color:white;
 color:#5b9fe6;
-border-radius: 5px;
+border-radius: 10px;
 display: flex;
 flex-direction: column;
 }
-
 .botao-confira{
   background-color: rgba(255, 204, 0, 0.903);
   display: inline-block;
@@ -335,4 +334,6 @@ flex-direction: column;
   font-size: 20px;
   color: aliceblue;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 600;}
+
+`
