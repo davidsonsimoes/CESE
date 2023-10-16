@@ -50,33 +50,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 #voluntario .container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    max-width: 1280px;
+    margin: 0 auto
 } 
 /* Estilo para os títulos h1 */
 #voluntario .destaque {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     color: #ffffff;  
-    margin-top: 40%;
+    margin-top: 30%;
     padding: 20px;
 }
 
 /* Estilo para o parágrafo dentro de #voluntario */
 #voluntario .texto {
-    font-size: 16px;
+    font-size: 25px;
     color: #ffffff; 
     margin-bottom: 15px; 
 }
 
 #voluntario .content {
     flex: 1;
-    padding: 20px; 
+    padding: 20px;  
+    position: relative;
+    padding-bottom: 150px;
 
 }
 
 #voluntario .image {
     flex: 1;
-    padding: 20px;
+    padding: 100px;
     box-sizing: border-box; 
 }
 
@@ -85,39 +93,78 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-bottom: 10px; 
     border-radius: 100%;
+    position: absolute;
+    right: 700px;
+    width: 500px;
 }
 
 /* Adicione margem à esquerda para a segunda imagem */
 #voluntario .image1 img {
-    margin-left: 20px;
-    max-width: 60%;
+    margin-left: 280px;
+    max-width: 100%;
     display: block;
-    
+    padding: 20px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
 
 }
 
 /* Adicione margem acima para a terceira imagem */
-#voluntario .image2 img {
-    margin-top: 20px;
-    
+ .image2 img {
+    margin-top: 100px;
+    width: 70px;
+    display: block;
+    position: absolute;
+    bottom:380px;
+    right: 140px;
 }
 
 /* Adicione margem à esquerda e acima para a quarta imagem */
 #voluntario .image3 img {
-    margin-left: 20px;
-    margin-top: 20px; 
+    margin-left: 280px;
+    max-width: 100%;
+    display: block;
+    padding: 20px;
+    width: 70px;
+    position: absolute;
+    bottom:-100px;
+    left:  -200px;
+
     
 }
 /* Estilo para o botão */
 button {
-    padding: 10px 20px;
-    background-color: #e0dc0e;
+    padding: 15px 30px;
+    background-color: #e7dd29;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 5%;
 }
 /* Estilo para o botão ao passar o mouse */
 button:hover {
     background-color: #c5b12f;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Não se move */
+    }
+    40% {
+        transform: translateY(-30px); /* Move para cima */
+    }
+    60% {
+        transform: translateY(-15px); /* Move para baixo */
+    }
+}
+
+.image1 {
+    display: inline-block;
+}
+
+#animated-image {
+    animation: bounce 1s infinite; /* Aplica a animação com repetição infinita */
 }
