@@ -27,6 +27,7 @@ time, mark, audio, video {
 /* implementa fonte padão como Poppins */
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     right: 700px;
     width: 500px;
+    padding: 10px;
 }
 
 /* Adicione margem à esquerda para a segunda imagem */
