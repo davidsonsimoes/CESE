@@ -365,3 +365,105 @@ img{
   text-decoration: none;
   font-size: 20px;
 }
+#bazar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #337dcc;
+  max-width: 1280px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url(imagens/mao-branca.png);
+  background-repeat: no-repeat;
+  background-position: top 10% left 5%
+  }
+  .paragrafo-bazar{
+  font-size: 1.5625rem;
+  width: 70%;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  }
+  #bazar h1{
+  margin: 1.875rem 1.875rem 1.875rem 1.875rem;
+  font-size: 6.25rem;
+  font-weight: 700;
+  }
+  #bazar h2{
+  font-size: 1.3rem;
+  font-weight: 800;
+  color:#5b9fe6;
+  }
+  .itens-bazar {
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-content: flex-start;
+  align-content: flex-start;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  
+  }
+  .item-bazar:nth-child(1) {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18.75rem;
+  margin: 3.125rem;
+  background-color:white;
+  color:#5b9fe6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .item-bazar:nth-child(2) {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18.75rem;
+  margin: 3.125rem;
+  background-color:white;
+  color:#5b9fe6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .item-bazar:nth-child(3) {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18.75rem;
+  margin: 3.125rem;
+  background-color:white;
+  color:#5b9fe6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .botao-confira{
+    background-color: rgba(255, 204, 0, 0.903);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 70px 10px 70px;
+    margin: 10px 20px 30px 40px;  
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
