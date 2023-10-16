@@ -79,12 +79,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 
 /* Implementa fontes */
@@ -93,7 +93,7 @@ video {
 
 /* implementa fonte padão como Poppins */
 body {
-  font-family: "Poppins", sans-serif;
+font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -102,160 +102,237 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+font-family: "Nunito", sans-serif;
 }
 
 #quem-somos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #5b9fe6;
-  max-width: 1280px;
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  color: white;
-  background-image: url(imagens/mao-amarela.png),
-    url(imagens/background-azul-esquerda.png), url(imagens/pontilhado.png),
-    url(imagens/background-azul-direita.png), url(imagens/pontilhado.png);
-  background-repeat: no-repeat;
-  background-position: top 10% left 5%, top left, top 15% right 7%,
-    top -20% right 0, bottom -5% left 5%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #5b9fe6;
+max-width: 1280px;
+width: 100%;
+height: 100vh;
+text-align: center;
+color: white;
+background-image: url(imagens/mao-amarela.png),
+url(imagens/background-azul-esquerda.png), url(imagens/pontilhado.png),
+url(imagens/background-azul-direita.png), url(imagens/pontilhado.png);
+background-repeat: no-repeat;
+background-position: top 10% left 5%, top left, top 15% right 7%,
+top -20% right 0, bottom -5% left 5%;
 }
 
 #quem-somos h1 {
-  margin: 1.875rem 0 1.875rem 0;
-  font-size: 6.25rem;
-  font-weight: 700;
+margin: 1.875rem 0 1.875rem 0;
+font-size: 6.25rem;
+font-weight: 700;
 }
 
 #quem-somos p {
-  font-size: 1.5625rem;
-  width: 70%;
-  font-weight: 100;
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
+font-size: 1.5625rem;
+width: 70%;
+font-weight: 100;
+margin-bottom: 30px;
+font-family: "Poppins", sans-serif;
 }
 
 .apresentacao {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .card-apresentacao {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 18.75rem;
-  margin: 3.125rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 18.75rem;
+margin: 3.125rem;
 }
 
 .card-apresentacao img {
-  width: 17.5rem;
-  height: 17.5rem;
-  border-radius: 50%;
+width: 17.5rem;
+height: 17.5rem;
+border-radius: 50%;
 }
 
 .card-apresentacao h2 {
-  font-size: 1.875rem;
-  margin: 0.625rem;
-  font-weight: 700;
+font-size: 1.875rem;
+margin: 0.625rem;
+font-weight: 700;
 }
 
 .card-apresentacao span {
-  font-size: 1.1rem;
-  width: 100%;
+font-size: 1.1rem;
+width: 100%;
 }
+#home{
+position: relative;
+width: auto;
+font-family: "Poppins", sans-serif;
+height: 100vh;
+background-image: url(imagens/background-home.jpg)
+}
+
+#home h1{
+position: absolute;
+text-align: center;
+top: 30%;
+left: 10%;
+font-size: 50px;
+font-weight: 700;
+color: white;
+margin-left: 10%;
+
+}
+#home p{
+
+position: absolute;
+top: 50%;
+color: white;
+text-align: center;
+margin-left: 35%;
+font-weight: 100;
+
+}
+img{
+width: 100%;
+
+}
+.overlay{
+position: absolute;
+background: blue;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+opacity: 0.5;
+z-index: 0;
+
+}
+.container{
+position: relative;
+z-index: 2;
+height: 100vh;
+}
+.position-button{
+position: absolute;
+top: 80%;
+left: 42%;
+
+}
+.button{
+background-color: rgb(233, 233, 3);
+display: inline-block;
+border-radius: 30px;
+padding: 20px 40px 20px 40px;
+text-decoration: none;
+font-size: 20px;
+
+}
+
 #bazar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #337dcc;
-  max-width: 1280px;
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  color: white;
-  background-image: url(imagens/mao-branca.png);
-  background-repeat: no-repeat;
-  background-position: top 10% left 5%
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #337dcc;
+max-width: 1280px;
+width: 100%;
+height: 100vh;
+text-align: center;
+color: white;
+background-image: url(imagens/mao-branca.png);
+background-repeat: no-repeat;
+background-position: top 10% left 5%
 }
 .paragrafo-bazar{
-  font-size: 1.5625rem;
-  width: 70%;
-  font-weight: 100;
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
+font-size: 1.5625rem;
+width: 70%;
+font-weight: 100;
+margin-bottom: 30px;
+font-family: "Poppins", sans-serif;
 }
 #bazar h1{
-  margin: 1.875rem 1.875rem 1.875rem 1.875rem;
-  font-size: 6.25rem;
-  font-weight: 700;
+margin: 1.875rem 1.875rem 1.875rem 1.875rem;
+font-size: 6.25rem;
+font-weight: 700;
 }
 #bazar h2{
-  font-size: 1.3rem;
-  font-weight: 800;
-  color:#5b9fe6;
+font-size: 1.3rem;
+font-weight: 800;
+color:#5b9fe6;
 }
 .itens-bazar {
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    -webkit-align-content: flex-start;
-    align-content: flex-start;
-    -webkit-align-items: flex-end;
-    align-items: flex-end;
-    
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+-webkit-flex-wrap: nowrap;
+flex-wrap: nowrap;
+-webkit-justify-content: space-around;
+justify-content: space-around;
+-webkit-align-content: flex-start;
+align-content: flex-start;
+-webkit-align-items: flex-end;
+align-items: flex-end;
+
 }
 .item-bazar:nth-child(1) {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 18.75rem;
-  margin: 3.125rem;
-  background-color:white;
-  color:#5b9fe6;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 18.75rem;
+margin: 3.125rem;
+background-color:white;
+color:#5b9fe6;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
 }
 
 .item-bazar:nth-child(2) {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 18.75rem;
-  margin: 3.125rem;
-  background-color:white;
-  color:#5b9fe6;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 18.75rem;
+margin: 3.125rem;
+background-color:white;
+color:#5b9fe6;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
 }
 
 .item-bazar:nth-child(3) {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 18.75rem;
-  margin: 3.125rem;
-  background-color:white;
-  color:#5b9fe6;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 18.75rem;
+margin: 3.125rem;
+background-color:white;
+color:#5b9fe6;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
 }
+
+.botao-confira{
+  background-color: rgba(255, 204, 0, 0.903);
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 70px 10px 70px;
+  margin: 10px 20px 30px 20px;  
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-weight: 600;
