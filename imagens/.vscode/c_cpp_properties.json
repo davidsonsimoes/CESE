@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "armv7",
+            "includePath": [
+                "/Users/davidsonsimoes/kepler/kepler-sdk/0.2.6557.0/kndk/platforms/0.2/armv7/usr/include/**",
+                "/Users/davidsonsimoes/kepler/kepler-sdk/0.2.6557.0/component-sdks/VegaUIReact/armv7/include/**",
+                "/Users/davidsonsimoes/Projetos/teste/CESE/**"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "x86_64",
+            "includePath": [
+                "/Users/davidsonsimoes/kepler/kepler-sdk/0.2.6557.0/kndk/platforms/0.2/x86_64/usr/include/**",
+                "/Users/davidsonsimoes/kepler/kepler-sdk/0.2.6557.0/component-sdks/VegaUIReact/x86_64/include/**",
+                "/Users/davidsonsimoes/Projetos/teste/CESE/**"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
