@@ -364,3 +364,64 @@ img{
   text-decoration: none;
   font-size: 20px;
 }
+footer{
+  background-color: rgb(56, 54, 54);
+  padding: 50px 40px 40px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.endereço{
+  position: relative;
+  
+}
+.endereço h2{
+  font-size: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.endereço p{
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.Links{
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  
+}
+.Links h2{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.Links p{
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.Contatos{
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.Contatos h2{
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.Contatos p{
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+.icones-sociais{
+  position: relative;
+  right: 90%;
+  padding: 65px 50px 10px 10px;
+  display: flex;
+  align-items: center;
+  width: 6%;
+  list-style: none;
+  gap: 10px;
+}
