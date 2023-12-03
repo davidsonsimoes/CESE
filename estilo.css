@@ -265,7 +265,8 @@ h6 {
 /* Adicione margem acima para a terceira imagem */
  .image2 img {
     margin-top: 100px;
-    width: 70px;
+    width: 100%;
+    max-width: 100px;
     display: block;
     position: absolute;
     bottom:480px;
@@ -275,15 +276,13 @@ h6 {
 /* Adicione margem à esquerda e acima para a quarta imagem */
 #voluntario .image3 img {
     margin-left: 280px;
-    max-width: 100%;
+    max-width: 100px;
     display: block;
     padding: 20px;
-    width: 70px;
+    width: 100%;
     position: absolute;
     bottom: 50px;
     left:  -200px;
-
-    
 }
 /* Estilo para o botão */
 button {

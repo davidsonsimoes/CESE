@@ -1,6 +1,424 @@
+/* Implementa fontes */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+/* implementa fonte padão como Poppins */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 16px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+
 .header-logo {
     max-width: 100px;
 }
 .header-logo img {
     width: 100%
 }
+.logo-preta {
+    display: none
+}
+.sticky-header-active .logo-preta {
+    display: block;
+    width: 60%;
+}
+.sticky-header-active .logo-branca {
+    display: none;
+}
+.sticky-header-active .logo-branca {
+    display: none;
+}
+
+.sticky-header-active #header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a, 
+.sticky-header-active #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a {
+    color: #000000
+}
+
+.sticky-header-active #header .header-nav.header-nav-line.header-nav-light-text nav > ul > li > a.active,
+.sticky-header-active #header .header-nav.header-nav-links.header-nav-light-text nav > ul > li > a.active {
+    color: #ffc107!important
+}
+
+.owl-carousel h2 {
+    text-align: center;
+}
+
+/* Quem Somos */
+
+#quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5b9fe6;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: url('../imagens/mao-amarela.png'),
+      url('../imagens/background-azul-esquerda.png'), url('../imagens/pontilhado.png'),
+      url('../imagens/background-azul-direita.png'), url('../imagens/pontilhado.png');
+    background-repeat: no-repeat;
+    background-position: top 10% left 5%, top left, top 15% right 7%,
+      top -20% right 0, bottom -5% left 5%;
+      color: #ffffff
+  }
+  #quem-somos * {
+    color: #ffffff
+  }
+  
+  #quem-somos .header-quem-somos {
+    max-width: 1024px;
+    width: 100%;
+    text-align: center;
+  }
+  #quem-somos .header-quem-somos * {
+    text-align: center;
+    margin: 0 auto
+  }
+  
+  #quem-somos .header-quem-somos h1 {
+    margin: 1.875rem 0 1.875rem 0;
+    font-size: 4.25rem;
+    font-weight: 700;
+  }
+  
+  #quem-somos .header-quem-somos p {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #quem-somos .apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #quem-somos .card-apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18.75rem;
+    margin: 3.125rem;
+  }
+  
+  #quem-somos .card-apresentacao img {
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 50%;
+  }
+  
+  .card-apresentacao h2 {
+    font-size: 1.875rem;
+    margin: 0.625rem;
+    font-weight: 700;
+  }
+  
+  #quem-somos .card-apresentacao p {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+
+  #voluntario {
+    background: #5b9fe6
+ }
+  #voluntario .content {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  #acoes.overlay:before {
+    background-color: #a07400!important;
+  }
+
+  #acoes.overlay * {
+   color: #ffffff
+  }
+
+  #acoes.overlay > div {
+    position: relative;
+    z-index: 999;
+  }
+
+  #acoes .header-acoes {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  #acoes .header-acoes * {
+    text-align: center;
+    margin: 0 auto
+  }
+  
+  #acoes .header-acoes h1 {
+    margin: 1.875rem 0 1.875rem 0;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  #acoes .header-acoes p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 30px;
+    width: 100%;
+    max-width: 700px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #acoes .apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #acoes .apresentacao .card-apresentacao {
+    border: 7px solid #ffffff;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px
+  }
+
+  #acoes .apresentacao .card-apresentacao strong {
+    font-weight: 800!important;
+    font-size: 42px;
+    margin-bottom: 0px;
+    margin-top: 45px;
+  }
+
+  #acoes .apresentacao .card-apresentacao label {
+    font-size: 16px;
+    width: 100px;
+    margin: 0 auto;
+    line-height: 16px;
+  }
+
+  #voluntario {
+    position: relative;
+  }
+
+  #voluntario .mao-amarela {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    max-width: 120px;
+    width: 100%
+  }
+
+  #voluntario .img-destaque {
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+  }
+
+  #voluntario .img-destaque {
+    border-radius: 100%;
+    width: 450px;
+    height: 450px;
+  }
+
+  #voluntario h1.destaque {
+    font-weight: 900;
+    color: #ffffff;
+    margin: 40px 0 20px 0;
+  }
+
+  #voluntario * {
+    color: #ffffff
+  }
+
+
+  #voluntario .image2 img {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 90px;
+    display: block;
+    position: absolute;
+    bottom:480px;
+    right: 140px;
+  }
+
+#voluntario .image3 img {
+  margin-left: 280px;
+  max-width: 90px;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  left:  -200px;
+}
+
+  #voluntario p {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #voluntario .button {
+    display: inline-block;
+    background-color: #ffc107!important;
+    color: #ffffff!important;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+
+  #bazar .content-bazar {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px
+  }
+
+  #bazar h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+  }
+
+  #bazar p {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 50px auto;
+  }
+
+  footer{
+    background-color: rgb(56, 54, 54);
+    padding: 50px 40px 40px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .endereço{
+    position: relative;
+    
+  }
+  .endereço h2{
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .endereço p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .Links {
+    position: relative;
+    line-height: 18px;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  .Links a {
+    color: #fff
+  }
+  .Links h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+  }
+  .Links p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 5px;
+  }
+  .Contatos{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+  }
+  .Contatos h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+  }
+  .Contatos p{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .icones-sociais{
+    position: relative;
+    right: 90%;
+    padding: 65px 50px 10px 10px;
+    display: flex;
+    align-items: center;
+    width: 6%;
+    list-style: none;
+    gap: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #quem-somos .header-quem-somos h1 {
+      font-size: 38px;
+    }
+    #quem-somos .header-quem-somos p {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0 15px
+    }
+    #quem-somos {
+      background-size: 60px, auto, 0, auto, auto;
+      background-position: top 2% left 5%, top left, top 15% right 7%, top -20% right 0, bottom -5% left 5%
+    }
+    #quem-somos .card-apresentacao {
+      margin: 10px 3.125rem;
+    }
+    #acoes.overlay > div {
+      margin: 0 auto;
+      text-align: center;
+      width: 330px;
+    }
+    #acoes .apresentacao .card-apresentacao {
+      margin: 10px auto;
+    }
+    #voluntario .img-destaque {
+      border-radius: 0;
+      width: 100%;
+      height: auto;
+   }
+   .image2, .image3 {
+    display: none;
+   }
+   #voluntario .mao-amarela {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    max-width: 120px;
+    width: 100%;
+  }
+  footer {
+      background-color: rgb(56, 54, 54);
+      padding: 50px 40px 40px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  }
